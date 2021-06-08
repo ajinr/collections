@@ -19,11 +19,11 @@ public class SetDemo {
 		
 		Set<Integer> valuesTS= new TreeSet<Integer>();
 		
-		valuesTS.addAll(values);
+		
 		System.out.println("HashSet");
 		for(Integer v:values)
 			System.out.println(v);
-
+		valuesTS.addAll(values);
 		System.out.println("TreeSet");
 		for(Integer v:valuesTS)
 			System.out.println(v);
